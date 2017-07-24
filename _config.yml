@@ -84,8 +84,8 @@ aboutBlock:
 
 # Rockstar Speakers Block
 rockstarSpeakersImage: "rockstar-speakers.jpg"
-rockstarSpeakersCount: 3
-rockstarSpeakersTitle: "Rockstar speakers"
+rockstarSpeakersCount: 2
+rockstarSpeakersTitle: "Key-Note Speakers"
 rockstarSpeakersButtonText: "See all speakers"
 
 # Location Block
@@ -94,8 +94,8 @@ eventLocationName: "Conference Hall"
 eventLocationLink: "https://www.iiit.ac.in/"
 eventStreetAddress: "IIIT Hyderabad"
 eventAddressLocality: "Hyderabad"
-eventAddressLocalityRegion: "Hyderabad"
-eventPostalCode: "79000"
+eventAddressLocalityRegion: "Telangana"
+eventPostalCode: "500032"
 eventAddressCountry: "India"
 eventStartTime: "2017-10-7T09:30"
 eventDoorTime: "09:00"

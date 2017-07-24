@@ -30,7 +30,7 @@
   title: "TBA"
   bio: "TBA"
   thumbnailUrl:
-  rockstar: true
+  rockstar: false
   social:
     - {name: "", link: ""}
 -
