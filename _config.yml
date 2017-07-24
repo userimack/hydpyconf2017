@@ -84,22 +84,22 @@ aboutBlock:
 
 # Rockstar Speakers Block
 rockstarSpeakersImage: "rockstar-speakers.jpg"
-rockstarSpeakersCount: 4
+rockstarSpeakersCount: 3
 rockstarSpeakersTitle: "Rockstar speakers"
 rockstarSpeakersButtonText: "See all speakers"
 
 # Location Block
 locationBlockTitle: "Location"
 eventLocationName: "Conference Hall"
-eventLocationLink: "http://cabinet.kinopalace.lviv.ua/showtimes/"
-eventStreetAddress: "22 Teatral'na St"
-eventAddressLocality: "Lviv"
-eventAddressLocalityRegion: "Lvivska"
+eventLocationLink: "https://www.iiit.ac.in/"
+eventStreetAddress: "IIIT Hyderabad"
+eventAddressLocality: "Hyderabad"
+eventAddressLocalityRegion: "Hyderabad"
 eventPostalCode: "79000"
-eventAddressCountry: "Ukraine"
-eventStartTime: "2014-10-25T10:00"
+eventAddressCountry: "India"
+eventStartTime: "2017-10-7T09:30"
 eventDoorTime: "09:00"
-eventEndTime: "2014-10-25T20:00"
+eventEndTime: "2017-10-28T17:00"
 eventPlaceCoordinates: "49.843237, 24.028751"
 mapCenterCoordinates: "49.842537, 24.025701"
 mapMobileCenterCoordinates: "49.841620, 24.029411"
@@ -132,45 +132,46 @@ partnersC4sponsorsButton: "Become a sponsor"
 
 # Tickets Block
 ticketsTitle: "Pricetable"
-ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
+ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch. Accommodation is NOT included in the ticket price."
 ticketsOffers:
- -
-  name: "Early Bird"
-  price: "350"
-  priceCurrency: "INR"
-  ticketsNumber: "150"
-  ribbon: "-5%"
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-08-25T10:00"
-  validThrough: "2014-09-30T23:59"
+# -
+#  name: "Early Bird"
+#  price: "TBA"
+#  priceCurrency: "INR"
+#  ticketsNumber: "TBA"
+#  ribbon: "TBA"
+#  buyButtonLink: ""
+#  buyButtonText: "Buy Now"
+#  ticketContentList: ["HydPy Conf early bird tickets", "Dummy text of the printing", "Typesetting industry"]
+#  validFrom: "TBA"
+#  disabled: true
+#  validThrough: "TBA"
  -
   name: "Last Chance"
-  price: "450"
+  price: "TBA"
   priceCurrency: "INR"
-  ticketsNumber: "100"
+  ticketsNumber: "TBA"
   ribbon: "-20%"
   featured: true
-  buyButtonLink: "http://dfua.ticketforevent.com/"
+  buyButtonLink: ""
   buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-10-01T00:00"
-  validThrough: "2014-10-23T23:59"
+  ticketContentList: ["HydPy Conf early bird tickets", "", ""]
+  validFrom: "TBA"
+  validThrough: "TBA"
   disabled: true
  -
-  name: "Student"
-  price: "200"
-  priceCurrency: "INR"
-  ticketsNumber: "50"
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-08-20T10:00"
-  validThrough: "2014-10-23T23:59"
-  soldOut: true
-  soldOutText: "Sold Out"
+#  name: "Student"
+#  price: "200"
+#  priceCurrency: "INR"
+#  ticketsNumber: "50"
+#  buyButtonLink: "http://dfua.ticketforevent.com/"
+#  buyButtonText: "Buy Now"
+#  additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
+#  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+#  validFrom: "2014-08-20T10:00"
+#  validThrough: "2014-10-23T23:59"
+#  soldOut: true
+#  soldOutText: "Sold Out"
 
 # Footer
 socialLinks:
