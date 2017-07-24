@@ -50,18 +50,18 @@ navigationLinks:
  #- {permalink: "/logistics/", text: "Logistics"}
  #- {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ #- {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 rightNavigationButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ #- {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 
 # Hero Block
-heroImage: "pyconf_hero2.jpg"
+heroImage: "pyconf_hero1.jpg"
 heroTitle: "Python Conference Hyderabad 2017"
 eventDate: "7th - 8th October, 2017"
 typeoutTextValues: '""'
 typeoutFallback: ""
 heroButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ #- {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
  - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
@@ -97,12 +97,12 @@ eventAddressLocality: "Hyderabad"
 eventAddressLocalityRegion: "Telangana"
 eventPostalCode: "500032"
 eventAddressCountry: "India"
-eventStartTime: "2017-10-7T09:30"
+eventStartTime: "2017-10-07T09:30"
 eventDoorTime: "09:00"
-eventEndTime: "2017-10-28T17:00"
-eventPlaceCoordinates: "49.843237, 24.028751"
-mapCenterCoordinates: "49.842537, 24.025701"
-mapMobileCenterCoordinates: "49.841620, 24.029411"
+eventEndTime: "2017-10-08T17:00"
+eventPlaceCoordinates: "17.4455415, 78.3471251"
+mapCenterCoordinates: "17.4455415, 78.3471251"
+mapMobileCenterCoordinates: "17.4455415, 78.3471251"
 
 # Venue Block
 #venueBlockTitle: "Venue"
@@ -114,9 +114,9 @@ mapMobileCenterCoordinates: "49.841620, 24.029411"
 #venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
 
 # Tweets Feed Block
-#tweetsFeedImage: "twitter-feed.jpg"
-#tweetsFeedTitle: "What's Up?"
-#twitterHashTag: "devfest"
+tweetsFeedImage: "twitter-feed.jpg"
+tweetsFeedTitle: "What's Up?"
+twitterHashTag: "pyconfhyd"
 #twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
@@ -134,32 +134,34 @@ partnersC4sponsorsButton: "Become a sponsor"
 ticketsTitle: "Pricetable"
 ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch. Accommodation is NOT included in the ticket price."
 ticketsOffers:
-# -
-#  name: "Early Bird"
-#  price: "TBA"
-#  priceCurrency: "INR"
-#  ticketsNumber: "TBA"
-#  ribbon: "TBA"
-#  buyButtonLink: ""
-#  buyButtonText: "Buy Now"
-#  ticketContentList: ["HydPy Conf early bird tickets", "Dummy text of the printing", "Typesetting industry"]
-#  validFrom: "TBA"
-#  disabled: true
-#  validThrough: "TBA"
  -
-  name: "Last Chance"
+  name: "Conference"
   price: "TBA"
   priceCurrency: "INR"
-  ticketsNumber: "TBA"
+  ticketsNumber: "200"
   ribbon: "-20%"
   featured: true
   buyButtonLink: ""
   buyButtonText: "Buy Now"
-  ticketContentList: ["HydPy Conf early bird tickets", "", ""]
-  validFrom: "TBA"
-  validThrough: "TBA"
+  ticketContentList: ["HydPy Conf tickets", "", ""]
+  validFrom: "2017-08-01T10:00"
+  validThrough: "2017-10-07T10:00"
   disabled: true
  -
+  name: "Workshop"
+  price: "TBA"
+  priceCurrency: "INR"
+  ticketsNumber: "100"
+  ribbon: "-20%"
+  featured: true
+  buyButtonLink: ""
+  buyButtonText: "Buy Now"
+  ticketContentList: ["HydPy Conf Workshop tickets", "", ""]
+  validFrom: "2017-08-01T10:00"
+  validThrough: "2017-10-08T10:00"
+  disabled: true
+
+# -
 #  name: "Student"
 #  price: "200"
 #  priceCurrency: "INR"
@@ -175,9 +177,9 @@ ticketsOffers:
 
 # Footer
 socialLinks:
- - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
- - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
- - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
+ #- {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
+ #- {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
+ - {link: "https://www.facebook.com/HydPy/", icon: "facebook"}
  - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
  -

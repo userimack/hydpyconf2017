@@ -1,7 +1,7 @@
 - 
   group: "General sponsor"
   elements: 
-    - {name: "TBA", description: "TBA", link: "", imageUrl: ""}
+#    - {name: "TBA", description: "TBA", link: "", imageUrl: ""}
 #    - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
 #-
 #  group: "With support of"
