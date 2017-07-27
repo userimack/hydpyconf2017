@@ -104,6 +104,7 @@ eventEndTime: "2017-10-08T17:00"
 eventPlaceCoordinates: "17.4455415, 78.3471251"
 mapCenterCoordinates: "17.4455415, 78.3471251"
 mapMobileCenterCoordinates: "17.4455415, 78.3471251"
+mapAPIkey: AIzaSyADHvpvQ4j0gpgqMjNp3h-QEc1N73Yp55Y
 
 # Venue Block
 #venueBlockTitle: "Venue"
