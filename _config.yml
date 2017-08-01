@@ -30,7 +30,7 @@ organizerLink: "http://hydpy.org"
 
 # Head
 metaKeywords: "event, python, pycon, pyconf, programming, hyderabad, developers, conference"
-twitterAccount: "@PyconfHyd"
+twitterAccount: "@hydPython"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
@@ -146,7 +146,7 @@ ticketsOffers:
   buyButtonLink: ""
   buyButtonText: "Buy Now"
   ticketContentList: ["HydPy Conf tickets", "", ""]
-  validFrom: "2017-08-01T10:00"
+  validFrom: "2017-08-05T10:00"
   validThrough: "2017-10-07T10:00"
   disabled: true
  -
@@ -159,7 +159,7 @@ ticketsOffers:
   buyButtonLink: ""
   buyButtonText: "Buy Now"
   ticketContentList: ["HydPy Conf Workshop tickets", "", ""]
-  validFrom: "2017-08-01T10:00"
+  validFrom: "2017-08-05T10:00"
   validThrough: "2017-10-08T10:00"
   disabled: true
 
