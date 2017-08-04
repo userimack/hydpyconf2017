@@ -45,6 +45,7 @@ navigationLinks:
  - {permalink: "/", text: "Home"}
  #- {permalink: "/blog/", text: "Blog"}
  - {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/proposals/", text: "CFP"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/team/", text: "Team"}
  - {permalink: "/volunteers/", text: "Volunteers"}
@@ -62,7 +63,7 @@ eventDate: "7th - 8th October, 2017"
 typeoutTextValues: '""'
 typeoutFallback: ""
 heroButtons:
- #- {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {permalink: "/proposals/", text: "Submit Proposal"}
  - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
