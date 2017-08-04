@@ -45,16 +45,16 @@ navigationLinks:
  - {permalink: "/", text: "Home"}
  #- {permalink: "/blog/", text: "Blog"}
  - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/proposals/", text: "CFP"}
+ #- {permalink: "/proposals/", text: "CFP"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/team/", text: "Team"}
- - {permalink: "/volunteers/", text: "Volunteers"}
+ #- {permalink: "/volunteers/", text: "Volunteers"}
  #- {permalink: "/logistics/", text: "Logistics"}
  #- {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
- #- {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {permalink: "/proposals/", text: "Become a speaker"}
 rightNavigationButtons:
- #- {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {permalink: "/proposals/", text: "Become a speaker"}
 
 # Hero Block
 heroImage: "pyconf_hero1.jpg"
@@ -124,7 +124,7 @@ twitterHashTag: "pyconfhyd"
 
 # Partners Block
 organizersTitle: "Sponsors"
-partnersTitle: "Partners"
+partnersTitle: "Community Partners"
 partnersC4sponsorsButton: "Become a sponsor"
 
 # Subscribe Block
@@ -201,12 +201,14 @@ footerBlocks:
  -
   title: "FAQ"
   links:
+   - {permalink: "/proposals/", text: "Call for Proposal"}
+   - {permalink: "/volunteers/", text: "Volunteers"}
    - {permalink: "/cod/", text: "Code of Conduct"}
 
 # Blog
-blogTitle: "Latest news"
-blogCommentsEnabled: true
-discusShortName: "devfestua"
+#blogTitle: "Latest news"
+#blogCommentsEnabled: true
+#discusShortName: "devfestua"
 
 # Speakers List Block
 showSessions: true
