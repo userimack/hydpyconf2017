@@ -11,7 +11,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 # Site Settings
 title: "Pyconf Hyderabad 2017"
-email: "hydpy@python.org"
+email: "contact@hydpy.org"
 description: "Hyderabad Python Conference 2017"
 baseurl: ""
 url: "https://hydpy.github.io"
@@ -146,7 +146,7 @@ ticketsOffers:
   buyButtonLink: ""
   buyButtonText: "Buy Now"
   ticketContentList: ["HydPy Conf tickets", "", ""]
-  validFrom: "2017-08-05T10:00"
+  validFrom: "2017-08-07T10:00"
   validThrough: "2017-10-07T10:00"
   disabled: true
  -
@@ -159,7 +159,7 @@ ticketsOffers:
   buyButtonLink: ""
   buyButtonText: "Buy Now"
   ticketContentList: ["HydPy Conf Workshop tickets", "", ""]
-  validFrom: "2017-08-05T10:00"
+  validFrom: "2017-08-07T10:00"
   validThrough: "2017-10-08T10:00"
   disabled: true
 
