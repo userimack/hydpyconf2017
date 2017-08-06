@@ -10,7 +10,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "Pyconf Hyderabad 2017"
+title: "PyConf Hyderabad 2017"
 email: "contact@hydpy.org"
 description: "Hyderabad Python Conference 2017"
 baseurl: ""
@@ -67,7 +67,7 @@ heroButtons:
  - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
-aboutTitle: "About Pyconf Hyderabad"
+aboutTitle: "About PyConf Hyderabad"
 aboutBlock:
  - {title: "Conference", image: "conference.jpg", text: "PyConf Hyderabad is the regional gathering for the community that uses and develops the open-source Python Programming Language." }
  - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
