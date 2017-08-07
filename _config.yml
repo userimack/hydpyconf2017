@@ -63,7 +63,7 @@ eventDate: "7th - 8th October, 2017"
 typeoutTextValues: '""'
 typeoutFallback: ""
 heroButtons:
- - {permalink: "/proposals/", text: "Submit Proposal"}
+ - {permalink: "/proposals/", text: "Become a Speaker"}
  - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
