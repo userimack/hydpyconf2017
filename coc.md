@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Don't be a jerk policy
-permalink: /cod/
+permalink: /coc/
 isStaticPost: true
 ---
 
