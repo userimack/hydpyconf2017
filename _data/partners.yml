@@ -1,4 +1,4 @@
 - 
   elements: 
-    - {name: "OSDG", description: "Open Source Developers Group (OSDG) : IIIT-Hyderabad", link: "https://osdg.iiit.ac.in", imageUrl: "osdg-hero.png"}
-    - {name: "freeCodeCamp", description: "freeCodeCamp", link: "https://www.freecodecamp.org", imageUrl: "FreeCodeCamp_logo.png"}
+    - {name: "OSDG", description: "Open Source Developers Group (OSDG) : IIIT-Hyderabad", link: "https://osdg.iiit.ac.in", imageUrl: "osdg_logo.svg"}
+    - {name: "FreeCodeCamp", description: "FreeCodeCamp Hyderabad", link: "https://www.freecodecamp.org", imageUrl: "freecodecamp_logo.svg"}
