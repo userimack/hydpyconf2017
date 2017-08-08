@@ -148,9 +148,9 @@ ticketsOffers:
   buyButtonText: "Buy Now"
   additionalInfo: "Conference Ticket"
   ticketContentList: ["HydPy Conf tickets", "", ""]
-  validFrom: "2017-08-07T10:00"
+  validFrom: "2017-08-10T10:00"
   validThrough: "2017-10-05T23:59"
-  #disabled: true
+  disabled: true
  -
   name: "Workshop I"
   price: "500"
@@ -162,9 +162,9 @@ ticketsOffers:
   buyButtonText: "Buy Now"
   additionalInfo: "Level: Beginner Session"
   ticketContentList: ["HydPy Conf Workshop tickets", "", ""]
-  validFrom: "2017-08-07T10:00"
+  validFrom: "2017-08-10T10:00"
   validThrough: "2017-10-05T23:59"
-  #disabled: true
+  disabled: true
  -
   name: "Workshop II"
   price: "500"
@@ -174,8 +174,9 @@ ticketsOffers:
   buyButtonText: "Buy Now"
   additionalInfo: "Level: Advanced Session"
   ticketContentList: ["HydPy Conf Workshop tickets", "", ""]
-  validFrom: "2017-08-20T10:00"
+  validFrom: "2017-08-10T10:00"
   validThrough: "2017-10-05T23:59"
+  disabled: true
   #soldOut: true
   #soldOutText: "Sold Out"
 
