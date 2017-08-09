@@ -58,7 +58,7 @@ rightNavigationButtons:
 
 # Hero Block
 heroImage: "pyconf_hero1.jpg"
-heroTitle: "Python Conference Hyderabad 2017"
+heroTitle: "PyConf Hyderabad 2017"
 eventDate: "7th - 8th October, 2017"
 typeoutTextValues: '""'
 typeoutFallback: ""
@@ -119,7 +119,7 @@ mapAPIkey: AIzaSyADHvpvQ4j0gpgqMjNp3h-QEc1N73Yp55Y
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
-twitterHashTag: "pyconfhyd"
+twitterHashTag: "PyConfHyd"
 #twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
