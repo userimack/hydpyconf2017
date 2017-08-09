@@ -36,7 +36,7 @@ socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
-c4pUrl: "https://docs.google.com/forms/d/1XdbmtKyxtlL1Atb2YqMUEVylwJsFTbycufIXa5A36Sk/"
+c4pUrl: "https://pyconfhyd.talkfunnel.com/2017/"
 c4sponsorsUrl: "/assets/pyconfhyd_prospectus.pdf"
 
 
@@ -52,9 +52,9 @@ navigationLinks:
  #- {permalink: "/logistics/", text: "Logistics"}
  #- {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
- - {permalink: "/proposals/", text: "Become a speaker"}
+ - {link: "https://pyconfhyd.talkfunnel.com/2017/", text: "Become a speaker"}
 rightNavigationButtons:
- - {permalink: "/proposals/", text: "Become a speaker"}
+ - {link: "https://pyconfhyd.talkfunnel.com/2017/", text: "Become a speaker"}
 
 # Hero Block
 heroImage: "pyconf_hero1.jpg"
@@ -63,7 +63,7 @@ eventDate: "7th - 8th October, 2017"
 typeoutTextValues: '""'
 typeoutFallback: ""
 heroButtons:
- - {permalink: "/proposals/", text: "Become a Speaker"}
+ - {link: "https://pyconfhyd.talkfunnel.com/2017/", text: "Become a Speaker"}
  - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
@@ -150,7 +150,7 @@ ticketsOffers:
   ticketContentList: ["HydPy Conf tickets", "", ""]
   validFrom: "2017-08-10T10:00"
   validThrough: "2017-10-05T23:59"
-  disabled: true
+  disabled: false
  -
   name: "Workshop I"
   price: "500"
@@ -164,7 +164,7 @@ ticketsOffers:
   ticketContentList: ["HydPy Conf Workshop tickets", "", ""]
   validFrom: "2017-08-10T10:00"
   validThrough: "2017-10-05T23:59"
-  disabled: true
+  disabled: false
  -
   name: "Workshop II"
   price: "500"
@@ -176,7 +176,7 @@ ticketsOffers:
   ticketContentList: ["HydPy Conf Workshop tickets", "", ""]
   validFrom: "2017-08-10T10:00"
   validThrough: "2017-10-05T23:59"
-  disabled: true
+  disabled: false
   #soldOut: true
   #soldOutText: "Sold Out"
 
@@ -203,7 +203,7 @@ footerBlocks:
  -
   title: "FAQ"
   links:
-   - {permalink: "/proposals/", text: "Call for Proposal"}
+   - {link: "https://pyconfhyd.talkfunnel.com/2017/", text: "Call for Proposal"}
    - {permalink: "/volunteers/", text: "Volunteers"}
    - {permalink: "/coc/", text: "Code of Conduct"}
 

@@ -2,6 +2,34 @@
   date: "2017-10-07"
   dateReadable: "October 7th"
   tracks: 
+    - {title: "Workshop 1", color: "#90be4e"}
+    - {title: "Workshop 2", color: "#03a9f4"}
+  timeslots:
+    - {
+        startTime: "09:00",
+        endTime: "09:30",
+        sessionIds: [123]
+    } 
+    - {
+        startTime: "09:30",
+        endTime: "12:30",
+        sessionIds: [008]
+    }
+    - {
+        startTime: "12:30",
+        endTime: "13:30",
+        sessionIds: [503]
+    }
+    - {
+        startTime: "13:30",
+        endTime: "16:30",
+        sessionIds: [009]
+    }
+
+- 
+  date: "2017-10-08"
+  dateReadable: "October 8th"
+  tracks: 
     - {title: "Conference", color: "#90be4e"}
     #- {title: "Web & Cloud", color: "#03a9f4"}
     #- {title: "Community", color: "#e91e63"}
@@ -65,26 +93,4 @@
     	startTime: "17:00",
     	endTime: "17:30",
     	sessionIds: [308]
-    }
-- 
-  date: "2017-10-08"
-  dateReadable: "October 8th"
-  tracks: 
-    - {title: "Workshop 1", color: "#90be4e"}
-    - {title: "Workshop 2", color: "#03a9f4"}
-  timeslots: 
-    - {
-    	startTime: "09:30",
-    	endTime: "12:30",
-    	sessionIds: [008, 009]
-    }
-    - {
-    	startTime: "12:30",
-    	endTime: "13:30",
-    	sessionIds: [503]
-    }
-    - {
-        startTime: "13:30",
-        endTime: "16:30",
-        sessionIds: [008, 009]
     }
