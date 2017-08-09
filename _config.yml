@@ -144,7 +144,7 @@ ticketsOffers:
   ticketsNumber: "250"
   ribbon: "-20%"
   featured: true
-  buyButtonLink: "https://in.explara.com/e/pyconf-hyderabad-2017"
+  buyButtonLink: "https://in.explara.com/e/pyconf-hyderabad-2017/checkout"
   buyButtonText: "Buy Now"
   additionalInfo: "Conference Ticket"
   ticketContentList: ["HydPy Conf tickets", "", ""]
@@ -158,7 +158,7 @@ ticketsOffers:
   ticketsNumber: "100"
   ribbon: "-20%"
   featured: true
-  buyButtonLink: "https://in.explara.com/e/pyconf-hyderabad-2017"
+  buyButtonLink: "https://in.explara.com/e/pyconf-hyderabad-2017/checkout"
   buyButtonText: "Buy Now"
   additionalInfo: "Level: Beginner Session"
   ticketContentList: ["HydPy Conf Workshop tickets", "", ""]
@@ -170,7 +170,7 @@ ticketsOffers:
   price: "500"
   priceCurrency: "INR"
   ticketsNumber: "100"
-  buyButtonLink: "https://in.explara.com/e/pyconf-hyderabad-2017"
+  buyButtonLink: "https://in.explara.com/e/pyconf-hyderabad-2017/checkout"
   buyButtonText: "Buy Now"
   additionalInfo: "Level: Advanced Session"
   ticketContentList: ["HydPy Conf Workshop tickets", "", ""]
