@@ -2,7 +2,7 @@
     background-image: url($logos-sprite);
     background-repeat: no-repeat;
     &.logo-dark {
-    	background-position: 0 -1px;
+    	background-position: -1px;
     }
     &.logo-gray {
     	background-position: 0 -63px;
