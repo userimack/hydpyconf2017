@@ -152,7 +152,7 @@ ticketsOffers:
   validThrough: "2017-10-05T23:59"
   disabled: false
  -
-  name: "Workshop I"
+  name: "Workshop I / Workshop II"
   price: "500"
   priceCurrency: "INR"
   ticketsNumber: "100"
@@ -160,25 +160,12 @@ ticketsOffers:
   featured: true
   buyButtonLink: "https://in.explara.com/e/pyconf-hyderabad-2017/checkout"
   buyButtonText: "Buy Now"
-  additionalInfo: "Level: Beginner Session"
+  additionalInfo: "Level: Workshop I - Beginner Session / Workshop II - Advanced Session"
   ticketContentList: ["HydPy Conf Workshop tickets", "", ""]
   validFrom: "2017-08-10T10:00"
   validThrough: "2017-10-05T23:59"
   disabled: false
- -
-  name: "Workshop II"
-  price: "500"
-  priceCurrency: "INR"
-  ticketsNumber: "100"
-  buyButtonLink: "https://in.explara.com/e/pyconf-hyderabad-2017/checkout"
-  buyButtonText: "Buy Now"
-  additionalInfo: "Level: Advanced Session"
-  ticketContentList: ["HydPy Conf Workshop tickets", "", ""]
-  validFrom: "2017-08-10T10:00"
-  validThrough: "2017-10-05T23:59"
-  disabled: false
-  #soldOut: true
-  #soldOutText: "Sold Out"
+
 
 # Footer
 socialLinks:
