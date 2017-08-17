@@ -1,4 +1,10 @@
 - 
+  group: "Community Partners"
   elements: 
     - {name: "OSDG", description: "Open Source Developers Group (OSDG) : IIIT-Hyderabad", link: "https://osdg.iiit.ac.in", imageUrl: "osdg_logo.svg"}
     - {name: "FreeCodeCamp", description: "FreeCodeCamp Hyderabad", link: "https://www.freecodecamp.org", imageUrl: "freecodecamp_logo.svg"}
+
+- 
+  group: "Organizing Partners"
+  elements:
+    - {name: "Nebulae", description: "Nebulae - Intelligent Apps for Humans at Work", link: "http://nebulaesoft.com", imageUrl: "nebulae_vector.svg"}
