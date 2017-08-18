@@ -26,7 +26,7 @@
   title: "Keynote Session 1"
   description: "Keynote session - upcoming."
   subtype: keynote
-  speakers: [3]
+  speakers: [1]
   language: en
   complexity: "Intermediate"
   video: ""
@@ -84,7 +84,7 @@
   title: "Keynote Session 2"
   description: "Keynote session - upcoming."
   subtype: keynote
-  speakers: [8]
+  speakers: [2]
   language: en
   complexity: "Intermediate"
   video: ""
