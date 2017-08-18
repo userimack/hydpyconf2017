@@ -43,9 +43,10 @@
 									<div class="flow-img img-circle people-img" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})"></div>
 								</div>
 								<div class="col-md-10 col-sm-10 details">
-									<p class="name">{{ speaker.name }} {{ speaker.surname }}
-										<span class="position">{{ speaker.title }}, {{ speaker.company }}</span>
-									</p>
+									<p class="name">{{ speaker.name }} {{ speaker.surname }}</p>
+									<p>{% for company in speaker.company %}
+										<span class="position">{{ company.title }}, {{ company.name }}</span><br/>
+									{% endfor %}</p>
 									{% if speaker.ribbon != null %}
 									<div class="modal-ribbon-wrapper">
 			                            {% for ribbon in speaker.ribbon %}
