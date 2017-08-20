@@ -24,3 +24,29 @@
   social:
     - {name: "twitter", link: "http://twitter.com/sanand0"}
     - {name: "site", link: "http://www.s-anand.net"}
+
+-
+  id: 4
+  name: "Anand"
+  surname: "Chitipothu"
+  company:
+    - {name: "Pipal Academy", title: "Software Consultant & Trainer"}
+  bio: "He has programing experience ranging from building rich desktop applications to scaling high-traffic websites, writing high-performance scientific tools to modern proxy servers. He works for Internet Archive, also conducts public training classes in Bangalore on a semi-regular basis."
+  thumbnailUrl: c-anand.jpg
+  rockstar: false
+  social:
+    - {name: "twitter", link: "https://twitter.com/anandology"}
+    - {name: "site", link: "http://anandology.com/"}
+
+-
+  id: 5
+  name: "Chandan"
+  surname: "Kumar"
+  company:
+    - {name: "Red Hat", title: "Software Engineer"}
+  bio: "Chandan Kumar works on OpenStack in Red Hat. He is also part of #dgplug community for the developement, where he encourage and help in upstream contributions to major Open Source projects."
+  thumbnailUrl: chandankumar.jpg
+  rockstar: false
+  social:
+    - {name: "twitter", link: "https://twitter.com/chkumar246"}
+    - {name: "site", link: "http://chandankumar.dgplug.org/"}
