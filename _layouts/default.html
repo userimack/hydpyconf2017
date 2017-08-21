@@ -50,6 +50,43 @@ layout: compress
         Waves.displayEffect();
         var googleMaps;
         var staticGoogleMaps;
+        {% if page.permalink == '/' %}
+            var twitterFeedUrl = '{{ site.twitterFeed }}';
+            $(document).ready(function () {
+                $(function () {
+                    if ($(window).width() > 767) {
+                        $("#typeout-text").typed({
+                            strings: [{{site.typeoutTextValues}}],
+                            typeSpeed: 150,
+                            backDelay: 900,
+                            loop: true
+                        });
+                    }
+                });
+                var rockstarSpeakers = [
+                    {% for speaker in site.data.speakers %}
+                        {% if speaker.rockstar %}
+                        {name: "{{ speaker.name }} {{ speaker.surname }}", company: "{{ speaker.company | map: "name" | join: ", " }}", image: "{{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }}"}{% if forloop.index != forloop.length %},{% endif %}
+                        {% endif %}
+                    {% endfor %}
+                ];
+                rockstarSpeakers.sort(function() {return 0.5 - Math.random()});
+                if(rockstarSpeakers.length > 0) {
+                    var animationDelay = 1500,
+                        count = Math.min({{ site.rockstarSpeakersCount }}, rockstarSpeakers.length),
+                        colWidth = 12/count;
+                    for(i=0; i<count; i++) {
+                        var clearfix = '<div class="clearfix visible-xs"></div>';
+                        if ((i)%2 != 0) {
+                            clearfix = ""
+                        }
+                        $('#rockstar-speaker-title').after('<div class="col-md-'+ colWidth +' col-xs-6 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay +'"><div class="rockstar-speaker"><div class="flow-img img-circle rockstar-speaker-img" style="background-image: url(' + rockstarSpeakers[i].image + ')"></div><div class="name">' + rockstarSpeakers[i].name + '</div><div class="sub">' + rockstarSpeakers[i].company + '</div></div></div>' + clearfix);
+                        animationDelay -= 500;
+                    }
+                }
+            });
+        {% endif %}
+
         function initMap() {
             {% if page.permalink == '/' %}
                 if ($(window).width() > 767) {
@@ -65,40 +102,7 @@ layout: compress
                     mobileCenterMapCoordinates = '{{ site.mapMobileCenterCoordinates | replace:' ','' }}',
                     icon = '{{ site.baseurl | prepend: site.url }}/img/other/map-marker.png';
                 }
-                var twitterFeedUrl = '{{ site.twitterFeed }}';
-                $(document).ready(function () {
-                    $(function () {
-                        if ($(window).width() > 767) {
-                            $("#typeout-text").typed({
-                                strings: [{{site.typeoutTextValues}}],
-                                typeSpeed: 150,
-                                backDelay: 900,
-                                loop: true
-                            });
-                        }
-                    });
-                    var rockstarSpeakers = [
-                        {% for speaker in site.data.speakers %}
-                            {% if speaker.rockstar %}
-                            {name: "{{ speaker.name }} {{ speaker.surname }}", company: "{{ speaker.company | map: "name" | join: ", " }}", image: "{{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }}"}{% if forloop.index != forloop.length %},{% endif %}
-                            {% endif %}
-                        {% endfor %}
-                    ];
-                    rockstarSpeakers.sort(function() {return 0.5 - Math.random()});
-                    if(rockstarSpeakers.length > 0) {
-                        var animationDelay = 1500,
-                            count = Math.min({{ site.rockstarSpeakersCount }}, rockstarSpeakers.length),
-                            colWidth = 12/count;
-                        for(i=0; i<count; i++) {
-                            var clearfix = '<div class="clearfix visible-xs"></div>';
-                            if ((i)%2 != 0) {
-                                clearfix = ""
-                            }
-                            $('#rockstar-speaker-title').after('<div class="col-md-'+ colWidth +' col-xs-6 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay +'"><div class="rockstar-speaker"><div class="flow-img img-circle rockstar-speaker-img" style="background-image: url(' + rockstarSpeakers[i].image + ')"></div><div class="name">' + rockstarSpeakers[i].name + '</div><div class="sub">' + rockstarSpeakers[i].company + '</div></div></div>' + clearfix);
-                            animationDelay -= 500;
-                        }
-                    }
-                });
+
             {% elsif page.permalink == '/logistics/' %}
                 googleMaps = 'logistics',
                     eventPlace = new google.maps.LatLng({{ site.eventPlaceCoordinates }}),
