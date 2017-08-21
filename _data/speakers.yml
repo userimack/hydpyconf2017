@@ -26,7 +26,7 @@
     - {name: "site", link: "http://www.s-anand.net"}
 
 -
-  id: 4
+  id: 3
   name: "Anand"
   surname: "Chitipothu"
   company:
@@ -39,7 +39,7 @@
     - {name: "site", link: "http://anandology.com/"}
 
 -
-  id: 5
+  id: 4
   name: "Chandan"
   surname: "Kumar"
   company:
@@ -50,3 +50,27 @@
   social:
     - {name: "twitter", link: "https://twitter.com/chkumar246"}
     - {name: "site", link: "http://chandankumar.dgplug.org/"}
+
+-
+  id: 5
+  name: "Vijay"
+  surname: "Kumar"
+  company:
+    - {name: "TBA", title: "TBA"}
+  bio: "TBA"
+  thumbnailUrl:
+  rockstar: true
+  social:
+    - {name: "", link: ""}
+
+-
+  id: 6
+  name: "Dorai"
+  surname: "Thodla"
+  company:
+    - {name: "TBA", title: "TBA"}
+  bio: "TBA"
+  thumbnailUrl:
+  rockstar: true
+  social:
+    - {name: "", link: ""}
