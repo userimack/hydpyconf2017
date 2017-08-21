@@ -2,7 +2,7 @@
   group: "Community Partners"
   elements: 
     - {name: "OSDG", description: "Open Source Developers Group (OSDG) : IIIT-Hyderabad", link: "https://osdg.iiit.ac.in", imageUrl: "osdg_logo.svg"}
-    - {name: "FreeCodeCamp", description: "FreeCodeCamp Hyderabad", link: "https://www.freecodecamp.org", imageUrl: "freecodecamp_logo.svg"}
+    - {name: "FreeCodeCamp", description: "FreeCodeCamp Hyderabad", link: "https://www.meetup.com/freecodecamp-hyderabad/", imageUrl: "freecodecamp_logo.svg"}
 
 - 
   group: "Organizing Partners"
