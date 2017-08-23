@@ -1,7 +1,7 @@
 - 
   elements:
     - {name: "Pramati", description: "Pramati Technologies", link: "https://www.pramati.com/", imageUrl: "pramati.png"}
-
+    - {name: "Python Software Foundation", description: "Python Software Foundation", link: "https://www.python.org/psf/", imageUrl: "psf-logo@2x.png"}
 - 
   group: "In-Kind Sponsors"
   elements:
