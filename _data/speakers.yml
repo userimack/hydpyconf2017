@@ -68,9 +68,18 @@
   name: "Dorai"
   surname: "Thodla"
   company:
-    - {name: "TBA", title: "TBA"}
-  bio: "TBA"
-  thumbnailUrl:
+    - {name: "iMorph Inc.", title: "Founder"}
+    - {name: "Future Focus/Focus America", title: "CTO"}
+  bio: " Dorai Thodla has over 40 years experience in Software Industry and he has founded 4 product startups - 2 in India and 2 in USA. Currently he is working in below roles:<br>
+        - CTO of Future Focus/Focus America<br>
+        - Innovation Mentor at KCG College of Technology<br>
+        - Innovation Mentor at Hindustan University<br>
+        - Founder of product company iMorph Innovations<br>
+        - Founder of Technology Strategies LLC, CA, USA<br>
+        - Helps build Software Skills, Product Skills and Startup Skills<br>
+        - Teacher, Mentor, Community Builder<br>"
+  thumbnailUrl: doraithodla.jpg
   rockstar: false
   social:
-    - {name: "", link: ""}
+    - {name: "twitter", link: "https://twitter.com/dorait"}
+    - {name: "site", link: "http://littlebitsofknowledge.com/"}
