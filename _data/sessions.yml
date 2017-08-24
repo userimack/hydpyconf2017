@@ -35,7 +35,7 @@
   title: "Session 1"
   description: "Track session - upcoming."
   subtype: presentation
-  speakers: [3]
+  speakers: [4]
   language: en
   complexity: "Intermediate"
   video: ""
@@ -44,20 +44,19 @@
   title: "Session 2"
   description: "Track session - upcoming."
   subtype: presentation
-  speakers: [4]
+  speakers: [5]
   language: en
   complexity: "Intermediate"
   presentation: ""
   video: ""
 -
   id: 004
-  title: "Session 3"
-  description: "Track session - upcoming."
-  subtype: presentation
-  speakers: []
+  title: "Keynote Session 2"
+  description: "Keynote session - upcoming."
+  subtype: keynote
+  speakers: [2]
   language: en
   complexity: "Intermediate"
-  presentation: ""
   video: ""
 -
   id: 005
@@ -81,10 +80,10 @@
   video: ""
 -
   id: 007
-  title: "Keynote Session 2"
+  title: "Keynote Session 3"
   description: "Keynote session - upcoming."
   subtype: keynote
-  speakers: [2]
+  speakers: [3]
   language: en
   complexity: "Intermediate"
   video: ""
@@ -93,7 +92,7 @@
   title: "Workshop I - Internet Of Things using Raspberry Pi"
   description: "Workshop - upcoming."
   subtype: workshop
-  speakers: [5]
+  speakers: [6]
   language: en
   complexity: "Intermediate"
   video: ""
@@ -112,7 +111,7 @@
   title: "Workshop II - AI Based ChatBot"
   description: "Workshop - upcoming."
   subtype: workshop
-  speakers: [6]
+  speakers: [7]
   language: en
   complexity: "Intermediate"
   video: ""

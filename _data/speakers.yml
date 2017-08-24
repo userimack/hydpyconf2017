@@ -14,6 +14,28 @@
 
 -
   id: 2
+  name: "YVES"
+  surname: "HILPISCH"
+  company:
+    - {name: "The Python Quants GmbH", title: "Founder & Managing Partner"}
+  bio: "Dr. Yves J. Hilpisch is founder and managing partner of The Python Quants (http://tpq.io), a group focusing on the use of open source technologies for financial data science, algorithmic trading and computational finance. He is the author of the books:<br><br> 
+
+       - Python for Finance (O'Reilly, 2014),<br>
+       - Derivatives Analytics with Python (Wiley, 2015) and<br>
+       - Listed Volatility and Variance Derivatives (Wiley, 2017).<br><br>
+       
+       Yves lectures on computational finance at the CQF Program (http://cqf.com), on data science at htw saar University of Applied Sciences (http://htwsaar.de) and is the director of the first online training program leading to a Python for Algorithmic Trading University Certificate (awarded by htw saar).<br>
+
+       Yves has written the financial analytics library DX Analytics (http://dx-analytics.com) and organizes meetups and conferences about Python for quantitative finance in Frankfurt, London and New York. He has given keynote speeches at technology conferences in the United States, Europe and Asia."
+  thumbnailUrl: yveshilpisch.jpg
+  rockstar: True
+  social:
+    - {name: "twitter", link: "https://twitter.com/dyjh"}
+    - {name: "github", link: "https://github.com/yhilpisch"}
+    - {name: "site", link: "http://hilpisch.com/#/"}
+
+-
+  id: 3
   name: "S"
   surname: "Anand"
   company:
@@ -26,7 +48,7 @@
     - {name: "site", link: "http://www.s-anand.net"}
 
 -
-  id: 3
+  id: 4
   name: "Anand"
   surname: "Chitipothu"
   company:
@@ -39,7 +61,7 @@
     - {name: "site", link: "http://anandology.com/"}
 
 -
-  id: 4
+  id: 5
   name: "Chandan"
   surname: "Kumar"
   company:
@@ -52,7 +74,7 @@
     - {name: "site", link: "http://chandankumar.dgplug.org/"}
 
 -
-  id: 5
+  id: 6
   name: "Vijay"
   surname: "Kumar"
   company:
@@ -64,7 +86,7 @@
     - {name: "", link: ""}
 
 -
-  id: 6
+  id: 7
   name: "Dorai"
   surname: "Thodla"
   company:
@@ -83,3 +105,6 @@
   social:
     - {name: "twitter", link: "https://twitter.com/dorait"}
     - {name: "site", link: "http://littlebitsofknowledge.com/"}
+
+
+  
