@@ -1,7 +1,14 @@
 - 
+  group: "Platinum Sponsors"
   elements:
     - {name: "Pramati", description: "Pramati Technologies", link: "https://www.pramati.com/", imageUrl: "pramati.png"}
     - {name: "Python Software Foundation", description: "Python Software Foundation", link: "https://www.python.org/psf/", imageUrl: "psf-logo@2x.png"}
+
+- 
+  group: "Gold Sponsors"
+  elements:
+    - {name: "Itversity", description: "Itversity", link: "http://www.itversity.com/", imageUrl: "itversity_logo.svg"}
+
 - 
   group: "In-Kind Sponsors"
   elements:
