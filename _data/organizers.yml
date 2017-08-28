@@ -1,13 +1,18 @@
 - 
   group: "Platinum Sponsors"
   elements:
-    - {name: "Pramati", description: "Pramati Technologies", link: "https://www.pramati.com/", imageUrl: "pramati.png"}
+    - {name: "Pramati", description: "Pramati Technologies", link: "https://www.pramati.com", imageUrl: "pramati.png"}
     - {name: "Python Software Foundation", description: "Python Software Foundation", link: "https://www.python.org/psf/", imageUrl: "psf-logo@2x.png"}
 
 - 
   group: "Gold Sponsors"
   elements:
-    - {name: "Itversity", description: "Itversity", link: "http://www.itversity.com/", imageUrl: "itversity_logo.svg"}
+    - {name: "Itversity", description: "Itversity", link: "http://www.itversity.com", imageUrl: "itversity_logo.svg"}
+
+- 
+  group: "Silver Sponsors"
+  elements:
+    - {name: "Pipal Academy", description: "Pipal Academy", link: "https://pipal.in", imageUrl: "pipal_academy.jpg"}
 
 - 
   group: "In-Kind Sponsors"
