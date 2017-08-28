@@ -14,8 +14,8 @@
 
 -
   id: 2
-  name: "YVES"
-  surname: "HILPISCH"
+  name: "Yves"
+  surname: "Hilpisch"
   company:
     - {name: "The Python Quants GmbH", title: "Founder & Managing Partner"}
   bio: "Dr. Yves J. Hilpisch is founder and managing partner of The Python Quants (http://tpq.io), a group focusing on the use of open source technologies for financial data science, algorithmic trading and computational finance. He is the author of the books:<br><br> 
