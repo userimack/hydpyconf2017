@@ -1,5 +1,5 @@
 # Plugins
-plugins:
+gems:
 - jekyll-sitemap
 safe: false
 
@@ -48,6 +48,7 @@ navigationLinks:
  #- {permalink: "/proposals/", text: "CFP"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/team/", text: "Team"}
+ - {permalink: "/faqs/", text: "FAQs"}
  #- {permalink: "/volunteers/", text: "Volunteers"}
  #- {permalink: "/logistics/", text: "Logistics"}
  #- {permalink: "/hackathon/", text: "Hackathon"}
