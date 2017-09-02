@@ -1,0 +1,9 @@
+-
+  id: 1
+  question: "Should I buy different tickets for day 1 & day 2 of the conference?"
+  answer: "Yes. Day 1 and Day 2 are two separate tickets. Day 1 is Workshop, ticket price is 500 INR. Day 2 is the Main Conference, ticket price is 800 INR."
+
+-
+  id: 2
+  question: "Is food available at the Venue?"
+  answer: "Yes food is covered within the ticket price."
