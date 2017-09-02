@@ -5,5 +5,15 @@
 
 -
   id: 2
+  question: "Can I attend Workshop I and Workshop II?"
+  answer: "Workshop I and II are parallel tracks; only one workshop can be chosen."
+
+-
+  id: 3
+  question: "What are prerequisite for workshop?"
+  answer: "Knowledge of python and computer are necessary. Specific libraries and other prerequisite for workshop will be sent via email before the workshop.."
+
+-
+  id: 4
   question: "Is food available at the Venue?"
   answer: "Yes food is covered within the ticket price."
