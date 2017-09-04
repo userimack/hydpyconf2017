@@ -52,6 +52,10 @@ navigationLinks:
  #- {permalink: "/volunteers/", text: "Volunteers"}
  #- {permalink: "/logistics/", text: "Logistics"}
  #- {permalink: "/hackathon/", text: "Hackathon"}
+ - {permalink: "/volunteers/", text: "Volunteers"}
+ - {permalink: "/coc/", text: "Code of Conduct"}
+
+
 bottomNavigationLinks:
  - {link: "https://pyconfhyd.talkfunnel.com/2017/", text: "Become a speaker"}
 rightNavigationButtons:
