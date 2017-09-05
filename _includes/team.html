@@ -5,7 +5,7 @@
             <h3>{{ site.teamBlockTitle }}</h3>
             <p class="text-left animated hiding" data-animation="fadeInUp" data-delay="0">{{ site.aboutUs }}</p>
         </div>
-        <div class="col-lg-10 col-lg-offset-1 text-center">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
             <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Organizers</h4>
             {% for teamMember in site.data.team %} {% if teamMember.team != null %}
             <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
@@ -30,6 +30,15 @@
                 </div>
             </div>
             {% endif %} {% endfor %}
+            <div class="thumbnail">
+                <img src="/img/people/PyConf_volunteers.jpg">
+            </div>
+        </div>
+        <div class="col-lg-10 col-lg-offset-1">
+            <h4>Contact Us</h4>
+            <h6>If you have any queries feel free to drop us a mail</h6>
+            <p style="font-size: 8em;"><span class="glyphicon glyphicon-envelope"></span></p>
+            <h6><a href="mailto:contact@hydpy.org">contact@hydpy.org</a></h6>
         </div>
     </div>
 </section>
