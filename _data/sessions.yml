@@ -68,7 +68,7 @@
   title: "Track Session"
   description: "Track session"
   subtype: presentation
-  speakers: []
+  speakers: [6]
   language: en
   #complexity: "Intermediate"
   #presentation: ""
@@ -98,7 +98,7 @@
                 Embedded Systems are no longer restricted to firmware developers. With Linux being used in many embedded systems, Java and Python developers can also build useful products using these systems.<br/>
                 This workshop will help application developers learn how to interface with the sensors and actuators using interfaces like Serial, I2C, GPIO, PWM and ADC, from a high level language like Python.<br/>"
   subtype: workshop
-  speakers: [6]
+  speakers: [7]
   language: en
   complexity: "Begineer"
 
@@ -117,6 +117,39 @@
   description: "1. Understand how chatbots work.<br/>
                 2. Learn to build a simple bot."
   subtype: workshop
-  speakers: [7]
+  speakers: [8]
   language: en
   complexity: "Intermediate"
+
+-
+  id: 011
+  title: "Track Session"
+  description: "Track session"
+  subtype: presentation
+  speakers: []
+  language: en
+  #complexity: "Intermediate"
+  #presentation: ""
+  #video: ""
+  
+-
+  id: 012
+  title: "Track Session"
+  description: "Track session"
+  subtype: presentation
+  speakers: []
+  language: en
+  #complexity: "Intermediate"
+  #presentation: ""
+  #video: ""
+  
+-
+  id: 013
+  title: "Track Session"
+  description: "Track session"
+  subtype: presentation
+  speakers: []
+  language: en
+  #complexity: "Intermediate"
+  #presentation: ""
+  #video: ""
