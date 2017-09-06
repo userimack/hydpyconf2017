@@ -75,6 +75,28 @@
 
 -
   id: 6
+  name: "Prabhu"
+  surname: "Ramachandran"
+  company:
+    - {name: "Department of Aerospace Engineering, IIT Bombay", title: "Faculty Member"}
+  bio: "Prabhu Ramachandran has been a faculty member at the department of Aerospace engineering, IIT Bombay, since 2005. His research interests are primarily in particle methods for fluid flow simulation and applied scientific computing.<br>
+        He has been active in the FOSS/Python community for close to two decades.
+        Along with his students, he has been building an open source framework for
+        particle simulations called PySPH. He is the creator, author, and lead
+        developer of the award winning Mayavi Python package. He is an active member
+        of the SciPy community. He has been a nominated fellow of the Python Software
+        Foundation since 2010. He was awarded the Kenneth Gonsalves award by the
+        Python Software Society of India and PSF in 2014. He is the PI of the FOSSEE
+        project. He was the managing director of Enthought India between 2011 and 2013
+        and currently serves as a director of the company.<br>"
+  thumbnailUrl: prabhu.jpg
+  rockstar: false
+  social:
+    - {name: "twitter", link: "https://twitter.com/prabhu_r?lang=en"}
+    - {name: "site", link: "https://www.aero.iitb.ac.in/~prabhu/"}
+
+-
+  id: 7
   name: "Vijay"
   surname: "Kumar"
   company:
@@ -89,7 +111,7 @@
     - {name: "site", link: "http://www.bravegnu.org"}
 
 -
-  id: 7
+  id: 8
   name: "Dorai"
   surname: "Thodla"
   company:
@@ -109,5 +131,41 @@
     - {name: "twitter", link: "https://twitter.com/dorait"}
     - {name: "site", link: "http://littlebitsofknowledge.com"}
 
+# -
+#   id: 9
+#   name: "TBA"
+#   surname: "TBA"
+#   company:
+#     - {name: "TBA", title: "TBA"}
+#   bio: "TBA"
+#   thumbnailUrl: 
+#   rockstar: false
+#   social:
+#     - {name: "twitter", link: ""}
+#     - {name: "site", link: ""}
 
-  
+# -
+#   id: 10
+#   name: "TBA"
+#   surname: "TBA"
+#   company:
+#     - {name: "TBA", title: "TBA"}
+#   bio: "TBA"
+#   thumbnailUrl: 
+#   rockstar: false
+#   social:
+#     - {name: "twitter", link: ""}
+#     - {name: "site", link: ""}
+
+# -
+#   id: 11
+#   name: "TBA"
+#   surname: "TBA"
+#   company:
+#     - {name: "TBA", title: "TBA"}
+#   bio: "TBA"
+#   thumbnailUrl: 
+#   rockstar: false
+#   social:
+#     - {name: "twitter", link: ""}
+#     - {name: "site", link: ""}
