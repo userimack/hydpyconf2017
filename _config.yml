@@ -50,6 +50,7 @@ navigationLinks:
  - {permalink: "/about/", text: "About"}
  - {permalink: "/#partners", text: "Sponsors"}
  - {permalink: "/faqs/", text: "FAQ"}
+ - {permalink: "/python-month/", text: "Python Month"}
  #- {permalink: "/volunteers/", text: "Volunteers"}
  #- {permalink: "/logistics/", text: "Logistics"}
  #- {permalink: "/hackathon/", text: "Hackathon"}
