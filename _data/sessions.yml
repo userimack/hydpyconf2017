@@ -1,97 +1,32 @@
 -
-  id: 123
+  id: 001
   title: "Registration"
   place: "Hall"
   service: true
   description: "Collect your tags"
 
 -
-  id: 307
+  id: 002
   title: "Tea/Coffee Break"
   place: "Hall"
   service: true
   description: "The best time to talk with speakers and attendees"
 
 -
-  id: 308
+  id: 003
   title: "Feedback"
   place: "Hall"
   service: true
   description: "Feedback on the conference"
 
 -
-  id: 503
+  id: 004
   title: "Lunch Break"
   place: "Dining room"
   service: true
 
 -
-  id: 001
-  title: "Keynote Session 1"
-  description: "Keynote session"
-  subtype: keynote
-  speakers: [1]
-  language: en
-
--
-  id: 002
-  title: "Track Session"
-  description: "Track session"
-  subtype: presentation
-  speakers: [4]
-  language: en
-  #complexity: ""
-  #presentation: ""
-  #video: ""
-
--
-  id: 003
-  title: "Track Session"
-  description: "Track session"
-  subtype: presentation
-  speakers: [5]
-  language: en
-  #complexity: ""
-  #presentation: ""
-  #video: ""
-
--
-  id: 004
-  title: "Keynote Session 2"
-  description: "Keynote session"
-  subtype: keynote
-  speakers: [2]
-  language: en
-
--
-  id: 005
-  title: "Track Session"
-  description: "Track session"
-  subtype: presentation
-  speakers: [6]
-  language: en
-  #complexity: "Intermediate"
-  #presentation: ""
-  #video: ""
-
--
-  id: 006
-  title: "Lightning Talks"
-  description: "Lightning Talks from the community"
-  subtype: presentation
-  speakers: []
-  language: en
-
--
-  id: 007
-  title: "Keynote Session 3"
-  description: "Keynote session"
-  subtype: keynote
-  speakers: [3]
-  language: en
-
--
-  id: 008
+  id: 101
   title: "Workshop I - Embedded Linux Device Interfacing with Python"
   description: "The objective of the workshop is to understand how various sensors and actuators are accessed and controlled from a Linux based embedded system.<br/>
                 This will be a starting point for people who want to build connected and IoT enabled embedded systems using Linux.<br/><br/>
@@ -103,7 +38,7 @@
   complexity: "Begineer"
 
 -
-  id: 009
+  id: 102
   title: "Workshop II - Time Series Analysis in Python - With Applications of Machine Learning Algorithms"
   description: "This workshop focuses on the use of Python, NumPy, pandas & scikit-learn for (financial) time series analysis. It starts with the basics, addresses some advanced topics in the context of performance and also illustrates the application of machine learning algorithms to the prediction of (financial) time series."
   subtype: workshop
@@ -112,7 +47,7 @@
   complexity: "Intermediate"
 
 -
-  id: 010
+  id: 103
   title: "Workshop II - AI Based ChatBot"
   description: "1. Understand how chatbots work.<br/>
                 2. Learn to build a simple bot."
@@ -122,7 +57,67 @@
   complexity: "Intermediate"
 
 -
-  id: 011
+  id: 201
+  title: "Keynote Session 1"
+  description: "Keynote session"
+  subtype: keynote
+  speakers: [1]
+  language: en
+
+-
+  id: 202
+  title: "Track Session"
+  description: "Track session"
+  subtype: presentation
+  speakers: [6]
+  language: en
+  #complexity: ""
+  #presentation: ""
+  #video: ""
+
+-
+  id: 203
+  title: "Track Session"
+  description: "Track session"
+  subtype: presentation
+  speakers: []
+  language: en
+  #complexity: ""
+  #presentation: ""
+  #video: ""
+
+-
+  id: 204
+  title: "Track Session"
+  description: "Track session"
+  subtype: presentation
+  speakers: [5]
+  language: en
+  #complexity: "Intermediate"
+  #presentation: ""
+  #video: ""
+
+-
+  id: 205
+  title: "Track Session"
+  description: "Track session"
+  subtype: presentation
+  speakers: []
+  language: en
+  #complexity: "Intermediate"
+  #presentation: ""
+  #video: ""
+
+-
+  id: 206
+  title: "Keynote Session 2"
+  description: "Keynote session"
+  subtype: keynote
+  speakers: [2]
+  language: en
+
+-
+  id: 207
   title: "Track Session"
   description: "Track session"
   subtype: presentation
@@ -133,18 +128,29 @@
   #video: ""
   
 -
-  id: 012
+  id: 208
   title: "Track Session"
   description: "Track session"
   subtype: presentation
   speakers: []
+  language: en
+  #complexity: "Intermediate"
+  #presentation: ""
+  #video: ""
+
+-
+  id: 209
+  title: "Track Session"
+  description: "Track session"
+  subtype: presentation
+  speakers: [4]
   language: en
   #complexity: "Intermediate"
   #presentation: ""
   #video: ""
   
 -
-  id: 013
+  id: 210
   title: "Track Session"
   description: "Track session"
   subtype: presentation
@@ -153,3 +159,19 @@
   #complexity: "Intermediate"
   #presentation: ""
   #video: ""
+
+-
+  id: 211
+  title: "Lightning Talks"
+  description: "Lightning Talks from the community"
+  subtype: presentation
+  speakers: []
+  language: en
+
+-
+  id: 212
+  title: "Keynote Session 3"
+  description: "Keynote session"
+  subtype: keynote
+  speakers: [3]
+  language: en
