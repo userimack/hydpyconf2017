@@ -15,19 +15,17 @@
                 <a class="{% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}"  href="{% if navigationLink.permalink != null %} {{ navigationLink.permalink | prepend: site.baseurl }} {% else %} {{ navigationLink.link }} {% endif %}" {% if navigationLink.link != null %}target="_blank"{% endif %}>{{ navigationLink.text}}</a>
             </li>
             {% endfor %}
-
         </ul>
-
-				<ul class="dropdown">
-				  <li><a href="#">More <span class="caret"></span></a></li>
-				  <div class="dropdown-content">
-				    {% for moreItemLink in site.moreItemLinks %}
-				    <li>
-				       	<a class="{% if moreItemLink.permalink != null and page.permalink == moreItemLink.permalink %}current{% endif %}"  href="{% if moreItemLink.permalink != null %} {{ moreItemLink.permalink | prepend: site.baseurl }} {% else %} {{ moreItemLink.link }} {% endif %}" {% if moreItemLink.link != null %}target="_blank"{% endif %}>{{ moreItemLink.text}}</a>
-				    </li>
-				    {% endfor %}
-				  </div>
-				</ul> 
+        <ul class="dropdown">
+            <li><a href="#">More <span class="caret"></span></a></li>
+            <div class="dropdown-content">
+                {% for moreItemLink in site.moreItemLinks %}
+                <li>
+                    <a class="{% if moreItemLink.permalink != null and page.permalink == moreItemLink.permalink %}current{% endif %}"  href="{% if moreItemLink.permalink != null %} {{ moreItemLink.permalink | prepend: site.baseurl }} {% else %} {{ moreItemLink.link }} {% endif %}" {% if moreItemLink.link != null %}target="_blank"{% endif %}>{{ moreItemLink.text}}</a>
+                </li>
+                {% endfor %}
+            </div>
+        </ul>
 
         <ul id="bottom-navlinks" class="bottom-navlinks visible-xs">
             {% for bottomNavigationLink in site.bottomNavigationLinks %}

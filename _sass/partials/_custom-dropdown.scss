@@ -19,11 +19,12 @@
 //larger than 767px
 @media (min-width: 767px) {
 	.dropdown {
-    position: relative;
-    display: inline-block;
+    	position: relative;
+    	display: inline-block;
 	}
 
 	.dropdown > li {
+	    padding-top: 1px;
 	    padding-bottom: 20px;
 	    cursor: pointer;
 	}
@@ -32,7 +33,7 @@
 	.dropdown-content {
 	    display: none;
 	    position: absolute;
-	    background-color:rgba(255,255,255,0.9);
+	    background-color: #f0f0f0;
 	    color: #000;
 	    min-width: 230px;
 	    z-index: 1;
@@ -40,18 +41,24 @@
 
 	/* Links inside the dropdown */
 	.dropdown-content li {
-	    color: black;
 	    padding: 12px 16px;
 	    text-decoration: none;
 	    display: block;
 	}
 
-	.dropdown-content > li:hover {
-		background-color: #ECECED;
+	.dropdown-content a {
+		color: $nav-scroll-color;
+		&:hover {
+			color: $nav-scroll-color-hover;
+		}
 	}
+
+	.dropdown-content > li:hover {
+		background-color: #e6e6e6;
+	}
+
 	.dropdown:hover .dropdown-content {
 	    display: block;
-
 	}
 
 }
