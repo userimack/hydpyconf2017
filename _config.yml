@@ -62,9 +62,9 @@ moreItemLinks:
  - {link: "https://pyconfhyd.talkfunnel.com/2017/", text: "Call for Proposal"}
 
 bottomNavigationLinks:
- - {link: "https://pyconfhyd.talkfunnel.com/2017/", text: "Become a speaker"}
+# - {link: "https://pyconfhyd.talkfunnel.com/2017/", text: "Become a speaker"}
 rightNavigationButtons:
- - {link: "https://pyconfhyd.talkfunnel.com/2017/", text: "Become a speaker"}
+# - {link: "https://pyconfhyd.talkfunnel.com/2017/", text: "Become a speaker"}
 
 # Hero Block
 heroImage: "pyconf_hero1.jpg"
@@ -148,19 +148,35 @@ ticketsTitle: "Pricetable"
 ticketsInfo: "Tickets grant access to all conference sections, coffee breaks and lunch. Accommodation is NOT included in the ticket price."
 ticketsOffers:
  -
-  name: "Workshop (Day 1)"
+  name: "Workshop I (Day 1)"
   price: "500"
   priceCurrency: "INR"
-  ticketsNumber: "100"
+  ticketsNumber: "75"
   ribbon: "-20%"
   featured: true
   buyButtonLink: "https://in.explara.com/e/pyconf-hyderabad-2017/checkout"
   buyButtonText: "Buy Now"
-  additionalInfo: "<a href='/schedule/#2017-10-07' target='_blank'>Workshop I / Workshop II</a>"
+  additionalInfo: "<a href='/schedule/#2017-10-07' target='_blank'>Workshop I - Begineer Session</a>"
   ticketContentList: ["HydPy Conf Workshop tickets", "", ""]
   validFrom: "2017-08-10T10:00"
   validThrough: "2017-10-05T23:59"
   disabled: false
+ -
+  name: "Workshop II (Day 1)"
+  price: "500"
+  priceCurrency: "INR"
+  ticketsNumber: "75"
+  ribbon: "-20%"
+  featured: true
+  buyButtonLink: "https://in.explara.com/e/pyconf-hyderabad-2017/checkout"
+  buyButtonText: "Buy Now"
+  additionalInfo: "<a href='/schedule/#2017-10-07' target='_blank'>Workshop II - Advanced Session</a>"
+  ticketContentList: ["HydPy Conf Workshop tickets", "", ""]
+  validFrom: "2017-08-10T10:00"
+  validThrough: "2017-10-05T23:59"
+  disabled: false
+  soldOut: true
+  soldOutText: "Sold Out"
  -
   name: "Conference (Day 2)"
   price: "800"
