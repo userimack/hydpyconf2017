@@ -130,7 +130,7 @@ mapAPIkey: AIzaSyADHvpvQ4j0gpgqMjNp3h-QEc1N73Yp55Y
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
 twitterHashTag: "PyConfHyd"
-twitterFeed: "https://twitter.com/hydPython?c=10&cache_interval=8000"
+twitterFeed: "https://vast-chamber-71380.herokuapp.com/timeline?username=hydPython&count=10"
 
 # Partners Block
 organizersTitle: "Sponsors"

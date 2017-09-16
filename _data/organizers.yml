@@ -18,7 +18,7 @@
   group: "In-Kind Sponsors"
   elements:
     - {name: "JetBrains", description: "JetBrains", link: "https://www.jetbrains.com", imageUrl: "jetbrains.svg"}
-    - {name: "Amazon Web Services", description: "Amazon Web Services", link: "https://aws.amazon.com", imageUrl: "AmazonWebservices_Logo.svg"}
+    - {name: "AWS Activate", description: "AWS Activate", link: "https://aws.amazon.com/activate", imageUrl: "aws-activate.png"}
 
 - 
   group: "T-Shirt Sponsor"
