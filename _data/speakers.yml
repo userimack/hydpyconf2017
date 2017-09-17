@@ -131,41 +131,71 @@
     - {name: "twitter", link: "https://twitter.com/dorait"}
     - {name: "site", link: "http://littlebitsofknowledge.com"}
 
-# -
-#   id: 9
-#   name: "TBA"
-#   surname: "TBA"
-#   company:
-#     - {name: "TBA", title: "TBA"}
-#   bio: "TBA"
-#   thumbnailUrl: 
-#   rockstar: false
-#   social:
-#     - {name: "twitter", link: ""}
-#     - {name: "site", link: ""}
+-
+  id: 9
+  name: "Pradhvan"
+  surname: "Bisht"
+  company:
+    - {name: "GNIOT", title: "Student"}
+  bio: "Hello world ! <br/>
+        I am a web developer and an open source enthusiast, I am also a Python lover and use it to automate everything I can.
+        Being an open source developer I am an active member of the various local user group that supports and promote open source.
+        Recently I spoke at PyDelhi Conf 2017 about automation using python and my talk was titled as 'A lazy programmer’s guide to automation'."
+  thumbnailUrl: 
+  rockstar: false
+  social:
+    - {name: "twitter", link: "https://twitter.com/BishtPradhvan"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/pradhvanbisht/"}
 
-# -
-#   id: 10
-#   name: "TBA"
-#   surname: "TBA"
-#   company:
-#     - {name: "TBA", title: "TBA"}
-#   bio: "TBA"
-#   thumbnailUrl: 
-#   rockstar: false
-#   social:
-#     - {name: "twitter", link: ""}
-#     - {name: "site", link: ""}
+-
+  id: 10
+  name: "Narendran"
+  surname: ""
+  company:
+    - {name: "Mad Street Den", title: "Backend Engineer"}
+  bio: "An optimist by nature, Naren shows up late to meetings at MadStreetDen. In his 4 years of industry experience he’s worn plenty of hats- like the one of a Trainer, Embedded Engineer and Backend/Product Engineer and sometimes even helmets- when he’s out cycling. He is currently on a mission to help startups to design and write usable software even before making it reusable.
+        When he’s not stirring up code, you can find him whipping up a delicious gluten-free treat or travelling/cycling. He likes being asked about his endless love for Python through the handle <a href='https://twitter.com/DudeWhoCode'>@DudeWhoCode</a>"
+  thumbnailUrl: 
+  rockstar: false
+  social:
+    - {name: "twitter", link: "https://twitter.com/DudeWhoCode"}
+    - {name: "site", link: "http://www.dudewho.codes"}
 
-# -
-#   id: 11
-#   name: "TBA"
-#   surname: "TBA"
-#   company:
-#     - {name: "TBA", title: "TBA"}
-#   bio: "TBA"
-#   thumbnailUrl: 
-#   rockstar: false
-#   social:
-#     - {name: "twitter", link: ""}
-#     - {name: "site", link: ""}
+-
+  id: 11
+  name: "Ujjwal"
+  surname: "Gupta"
+  company:
+    - {name: "Freelancer", title: ""}
+  bio: "Hey there! My name is Ujjwal Gupta, creator of Stephanie. I am an 18 year old self taught programmer and am not been going to college as I strongly believe the internet and Open Source Community has more than enough resources available for any programming enthusiast to master it’s craft.<br/>
+        I have prior knowledge about web development as well as software development and been working as a freelancer in my spare time. I really love to follow football and do side/personal projects for fun as a hobby. I have been recently working on a NLP solution through sounder by making it more efficient and less computationally expensive to use."
+  thumbnailUrl: 
+  rockstar: false
+  social:
+    - {name: "github", link: "https://github.com/SlapBot"}
+    - {name: "site", link: "https://slapbot.github.io"}
+
+-
+  id: 12
+  name: "Mahendra"
+  surname: "Yadav"
+  company:
+    - {name: "Azri Solutions", title: "Data Engineer"}
+  bio: "Mahendra Yadav is a Data Engineer at Azri Solutions, Hyderabad. In his day to day work he processes a lot of data from different sources."
+  thumbnailUrl: 
+  rockstar: false
+  social:
+    - {name: "github", link: "https://github.com/userimack"}
+    - {name: "site", link: "http://imack2015.wordpress.com"}
+
+-
+  id: 13
+  name: "Sameer"
+  surname: ""
+  company:
+    - {name: "TBA", title: "TBA"}
+  bio: "Another software developer doing a regular job in IT. I’ve been working with Google and have been using python as a major pillar in my tech-stack for more than 7 years."
+  thumbnailUrl: 
+  rockstar: false
+  social:
+    - {name: "github", link: "https://github.com/samc0de"}
