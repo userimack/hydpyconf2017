@@ -5,12 +5,13 @@
   company:
     - {name: "Red Hat", title: "Fedora Cloud Engineer"}
     - {name: "Python Software Foundation", title: "Director"}
-  bio: 'Kushal is working with Fedora Project over last 10 years in various capacities and currently working as Fedora Cloud Engineeer in Red Hat. He is also a core developer of CPython, and director at Python Software Foundation. In 2004 he founded <a href="https://kushaldas.in/dgplug.org">dgplug</a> and still helps there as a co-ordinator.'
+  bio: 'Kushal is working with Fedora Project over last 10 years in various capacities and currently working as Fedora Cloud Engineeer in Red Hat. He is also a core developer of CPython, and director at Python Software Foundation. In 2004 he founded <a href="https://dgplug.org">dgplug</a> and still helps there as a co-ordinator.'
   thumbnailUrl: kushaldas.jpg
   rockstar: true
   social:
     - {name: "twitter", link: "https://twitter.com/kushaldas"}
     - {name: "site", link: "https://kushaldas.in"}
+    - {name: "github", link: "https://github.com/kushaldas"}
 
 -
   id: 2
@@ -187,6 +188,7 @@
   social:
     - {name: "github", link: "https://github.com/userimack"}
     - {name: "site", link: "http://imack2015.wordpress.com"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/userimack/"}
 
 -
   id: 13
