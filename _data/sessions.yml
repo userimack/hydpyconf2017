@@ -77,13 +77,24 @@
 
 -
   id: 203
-  title: "Track Session"
-  description: "Track session"
+  title: "A lazy programmer's guide to web scraping"
+  description: "Brief Outline of the Talk<br/>
+                1. What is web scraping ?<br/>
+                2. Why should you scrape ?<br/>
+                3. Things that might come handy<br/>
+                4. How it’s done<br/>
+                5. Comparing Parsers<br/>
+                6. Preserving the data<br/>
+                7. Code Examples<br/>
+                8. What to use when to use<br/>
+                9. Scraping Hacks<br/>
+                10. Ethics of Scraping<br/>
+                11. Q/A and General Discussion<br/>"
   subtype: presentation
-  speakers: []
+  speakers: [9]
   language: en
-  #complexity: ""
-  #presentation: ""
+  complexity: "Begineer"
+  presentation: "https://docs.google.com/presentation/d/1vH8iglKUqzzydG0NK_lW0TtghFxu6U29KHrOGlHNmEk/pub?start=false&loop=false&delayms=5000&slide=id.g129f1537c4_0_736"
   #video: ""
 
 -
@@ -99,13 +110,13 @@
 
 -
   id: 205
-  title: "Track Session"
-  description: "Track session"
+  title: "IoT meets Serverless"
+  description: "Outline :   </p>\n<ol>\n<li>The &ldquo;thing&rdquo; in &ldquo;Internet of Things&rdquo;<br>\na. Quick introduction to IoT. How much and what data they will generate  </li>\n<li>Let it in<br>\na. Designing a data pipeline to handle the large stream of data  </li>\n<li>Three-tier Architecture<br>\na. Introduction to one of the common n-tier architecture approach  </li>\n<li>Usual approach<br>\na. How we traditianally implement a 3-tier architecture in cloud to handle data<br>\nb. Traditional architecture diagram (IoT gateway, kafka, storm, mongodb, cold storage)<br>\nc. Drawbacks in this approach  </li>\n<li>Going serverless<br>\na. Advantages<br>\nb. Using AWS serverless for our 3-tier architecture  </li>\n<li>Components<br>\na. Brief explanation of all the services we use in AWS serverless<br>\nb. Services include AWS IoT, Kinesis Firehose, AWS lambda, S3, Athena, AWS Quicksight  </li>\n<li>Up and running in minutes (demo)<br>\na. Set up the serverless components on live using python and Boto3<br>\nb. Get quick insights from mock data or data from sensors (using already setup Arduino/Raspi)</li>\n</ol>"
   subtype: presentation
-  speakers: []
+  speakers: [10]
   language: en
-  #complexity: "Intermediate"
-  #presentation: ""
+  complexity: "Intermediate"
+  presentation: "http://www.dudewho.codes/assets/pdfs/iot_meets_serverless.pdf"
   #video: ""
 
 -
@@ -118,23 +129,24 @@
 
 -
   id: 207
-  title: "Track Session"
-  description: "Track session"
+  title: "The Journey to Jarvis v2.0 via Stephanie: Building your very own simple AI"
+  description: "Ever wanted a personal assistant like Jarvis for yourself? Fear not. <a href='http://slapbot.github.io'>Stephanie</a> addresses the problem by providing an open-source platform built specifically for voice-controlled applications as well as to automate daily tasks and hence imitating much of a virtual/personal assistant’s job.<br/>
+                The objective of the talk will be to give first hand experience of teaching people on how to create their own simple AI with Stephanie with just a couple of clicks after downloading the files and then providing a tutorial on how to create their own modules so that they could harness the true ability of virtual assistant."
   subtype: presentation
-  speakers: []
+  speakers: [11]
   language: en
-  #complexity: "Intermediate"
-  #presentation: ""
+  complexity: "Intermediate"
+  presentation: "https://docs.google.com/presentation/d/e/2PACX-1vRo56UUB8Z6TLIDEek7G06uMMm9JoBxLXEeexNP4ybgPt8bRRsWumnpETSJwCY64RAKQZ5StP9wRr6i/pub?start=false&loop=false&delayms=3000&slide=id.gc6f73a04f_0_0"
   #video: ""
   
 -
   id: 208
-  title: "Track Session"
-  description: "Track session"
+  title: "Airflow: To Manage Data Pipelines"
+  description: "Outline: <br/><ol>\n<li>Existing challenges in data engineering - creating/monitoring/troubleshooting workflows  </li>\n<li>Introduction to Airflow  </li>\n<li>Main advantages of Airflow  </li>\n<li>Tasks as DAG  </li>\n<li>Airflow in practice - case study  </li>\n<li>Dynamic pipeline generation  </li>\n<li>Demo UI dashboards  </li>\n<li>Data Engineering at Scale  </li>\n<li>Brief overview of what other options exists</li>\n</ol>"
   subtype: presentation
-  speakers: []
+  speakers: [12]
   language: en
-  #complexity: "Intermediate"
+  complexity: "Begineer"
   #presentation: ""
   #video: ""
 
@@ -151,13 +163,13 @@
   
 -
   id: 210
-  title: "Track Session"
-  description: "Track session"
+  title: "Neural Networks from zero (using only numpy) to practical projects (using scikit-learn and TensorFlow)"
+  description: "Artificial Neural Networks (ANN henceforth) are being used increasingly ever in recent years, and some consider it as a master key for almost all machine learning problems. There are many toolkits and libraries (tools henceforth) available, but I myself have never been comfortable with such tools until I understand (at least partially) what’s going on under the hood. I’m in no way saying that these tools are poorly documented or have a difficult learning curve, it’s just the way I tend to learn. Assuming that I am not alone in this regard, I would like to help others in their quest to understand and master ANN by giving my bit."
   subtype: presentation
-  speakers: []
+  speakers: [13]
   language: en
-  #complexity: "Intermediate"
-  #presentation: ""
+  complexity: "Begineer"
+  presentation: "https://samc0de.github.io/ANN_pyconf_hyd/"
   #video: ""
 
 -
