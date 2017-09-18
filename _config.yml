@@ -73,7 +73,7 @@ eventDate: "7th - 8th October, 2017"
 typeoutTextValues: '""'
 typeoutFallback: ""
 heroButtons:
- - {link: "https://pyconfhyd.talkfunnel.com/2017/", text: "Become a Speaker"}
+# - {link: "https://pyconfhyd.talkfunnel.com/2017/", text: "Become a Speaker"}
  - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
