@@ -99,12 +99,22 @@
 
 -
   id: 204
-  title: "Track Session"
-  description: "Track session"
+  title: "My Journey to RDO Community"
+  description: "Contributing to an Open Source project not only helps you to get a better job, also helps to learn lots of skills, technology, communication and knowing people across the globe. But start contributing to Open Source appears to be hard as it requires an effort to make a contribution.<br/>
+                Everyone possess some skills but we need some guidance to getting started as it is not so hard. It just requires being getting started, always stay contributing, once you feel mature, you need to stick to any community. Patience and Time plays an important role in shaping your future in this world.<br/>
+                I will be sharing my journey to opensource how I had started as a open source translator to open source developer for RDO community.<br/><br/>
+                The talk will highlight:<br/>
+                * What is contribution and why should I contribute?<br/>
+                * How have I started contributing while I was in college.<br/>
+                * Follow the master to become the master.<br/>
+                * Frustration, burnout while contributing to Open Source and how to overcome it.<br/>
+                * Knowing the community and stay motivated.<br/>
+                * How I got involved with RDO community.<br/>
+                * Reached a goal and what next?"
   subtype: presentation
   speakers: [5]
   language: en
-  #complexity: "Intermediate"
+  complexity: "Begineer"
   #presentation: ""
   #video: ""
 
