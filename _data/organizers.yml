@@ -1,26 +1,27 @@
-- 
+-
   group: "Platinum Sponsors"
   elements:
     - {name: "Pramati", description: "Pramati Technologies", link: "https://www.pramati.com", imageUrl: "pramati.png"}
     - {name: "Python Software Foundation", description: "Python Software Foundation", link: "https://www.python.org/psf/", imageUrl: "psf-logo@2x.png"}
 
-- 
+-
   group: "Gold Sponsors"
   elements:
     - {name: "Itversity", description: "Itversity", link: "http://www.itversity.com", imageUrl: "itversity_logo.png"}
+    - {name: "Red Hat", description: "Red Hat", link: "https://www.redhat.com/", imageUrl: "redhat_logo.png"}
 
-- 
+-
   group: "Silver Sponsors"
   elements:
     - {name: "Pipal Academy", description: "Pipal Academy", link: "https://pipal.in", imageUrl: "pipal_academy_logo.png"}
 
-- 
+-
   group: "In-Kind Sponsors"
   elements:
     - {name: "JetBrains", description: "JetBrains", link: "https://www.jetbrains.com", imageUrl: "jetbrains.svg"}
     - {name: "AWS Activate", description: "AWS Activate", link: "https://aws.amazon.com/activate", imageUrl: "aws_activate.jpg"}
 
-- 
+-
   group: "T-Shirt Sponsor"
   elements:
     - {name: "Google", description: "Google", link: "https://www.google.co.in/intl/en/about/", imageUrl: "Google_2015_logo.svg"}
